@@ -746,11 +746,13 @@ body{
         width: 25px;
         height: 25px;
         right: 15%;
+        top: 55%
     }
 
     .hero-block__svg-star3{
         width: 15px;
         height: 15px;
+        top: 60%
     }
 
     .hero-block__svg-star2{
@@ -772,7 +774,7 @@ body{
 @media screen and (max-width: 510px){
     .hero-block__svg-star3{
         right: 20%;
-        top: 60%
+        
     }
 
     .hero-block__svg-star{
