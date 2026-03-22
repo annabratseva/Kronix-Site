@@ -745,14 +745,14 @@ body{
     .hero-block__svg-star{
         width: 25px;
         height: 25px;
-        right: 15%;
+        right: 10%;
         top: 55%
     }
 
     .hero-block__svg-star3{
         width: 15px;
         height: 15px;
-        top: 60%
+        top: 55%
     }
 
     .hero-block__svg-star2{
