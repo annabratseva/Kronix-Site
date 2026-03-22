@@ -723,7 +723,7 @@ body{
     }
 
     .hero-block__svg-star2{
-        top: 55%
+        top: 40%
     }
 
     .hero-block__brands-icons{
@@ -745,19 +745,18 @@ body{
     .hero-block__svg-star{
         width: 25px;
         height: 25px;
-        right: 10%;
-        top: 55%
+        right: 15%;
     }
 
     .hero-block__svg-star3{
         width: 15px;
         height: 15px;
-        top: 55%
     }
 
     .hero-block__svg-star2{
         width: 10px;
         height: 10px;
+
     }
 
     .text-block__small-text{
@@ -773,7 +772,7 @@ body{
 @media screen and (max-width: 510px){
     .hero-block__svg-star3{
         right: 20%;
-        
+        top: 60%
     }
 
     .hero-block__svg-star{
