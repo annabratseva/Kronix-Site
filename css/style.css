@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
     margin: 0;
@@ -123,6 +124,61 @@ html{
     flex-direction: column;
     justify-content: center;
     gap: 36px;
+}
+
+.black-text{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.black-text__title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 121%;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #111204;
+}
+
+.black-text__subtitle{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(17, 18, 4, 0.8);
+
+    width: 462px;
+}
+
+.black-text__button{
+    border: 1px solid #111204;
+    border-radius: 8px;
+    width: 184px;
+    height: 64px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 25px;
+}
+
+.black-text__icon{
+    width: 25px;
+    height: 25px;
+}
+
+.black-text__button-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 100%;
+    text-align: center;
+    color: #111204;
 }
 
 
@@ -426,7 +482,148 @@ body{
     width: fit-content;
 }
 
+/* BEAUTIFUL WORKS */
 
+.beautiful-w{
+    width: 100vw;
+    background-color: white;
+    padding-top: 77px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 61px;
+    
+    
+}
+
+.beautiful-w__pictures-cont{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    height: 1020px;
+    margin-top: 8%;
+}
+
+.beautiful-w__pictures-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 26px;
+    height: 1000px
+    
+}
+
+.beautiful-w__pictures-column--longer{
+    align-items: center;
+    justify-content: end;
+}
+
+.beautiful-w__img{
+    width: 340px;
+    height: 340px;
+}
+
+
+/* CAPABILITIES */
+
+.capabilities{
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.capabilities__small-text{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #b9fd50;
+}
+
+.capabilities__title{
+    font-weight: 600;
+    font-size: 3.3rem;
+    line-height: 107%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.capabilities__text-cards{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.capabilities__text-cards-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 70%;
+}
+
+.capabilities__text-card{
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 148%;
+    text-align: center;
+    color: #111204;
+    text-align: center;
+
+    border-radius: 8px;
+    padding: 11px 27px 12px 35px;
+    width: fit-content;
+    height: 49px;
+    background-color: #b9fd50;
+}
+
+.capabilities__text-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.capabilities__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+
+    margin-top: 51px;
+}
+
+.capabilities__icon{
+    width: 25px;
+    height: 25px;
+}
+
+.capabilities__button-text{
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
 
 @media screen and (max-width:1680px) {
     .hero-block__svg-star{
