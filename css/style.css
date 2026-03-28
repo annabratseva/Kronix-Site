@@ -848,6 +848,8 @@ body{
         width: 240px;
         height: 238px;
     }
+
+    
     
 }
 
@@ -975,6 +977,9 @@ body{
         padding-top: 0px;
     }
    
+    .capabilities__cards{
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -1009,6 +1014,10 @@ body{
 
     .how-we-work__cont{
         gap: 10px;
+    }
+
+    .capabilities__cards-cont, .capabilities__cards{
+        flex-direction: column;
     }
     
 }
