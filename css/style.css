@@ -517,7 +517,7 @@ body{
     align-items: center;
     gap: 26px;
     height: 1020px;
-    margin-top: 8%;
+    margin-top: 120px;
 }
 
 .beautiful-w__pictures-column{
@@ -594,9 +594,9 @@ body{
     text-align: center;
 
     border-radius: 8px;
-    padding: 11px 27px 12px 35px;
+    padding: 12px 27px 12px 27px;
     width: fit-content;
-    height: 49px;
+   
     background-color: #b9fd50;
 }
 
@@ -652,6 +652,31 @@ body{
         padding-left: 15vw;
     }
     
+}
+
+@media screen and (max-width:1500px){
+
+    .beautiful-w__pictures-cont{
+        margin-top: 40px;
+        height: 900px;
+    }
+
+    .beautiful-w__img{
+        width: 240px;
+        height: 240px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    .beautiful-w__pictures-column{
+        height: 643px;
+    }
+
+    .beautiful-w{
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 1390px){
@@ -746,6 +771,31 @@ body{
     .text-block__inner-title{
         width: 480px;
     }
+
+    .beautiful-w__pictures-column--longer{
+        display: none;
+    }
+
+    .beautiful-w__pictures-column{
+        gap: 15px;
+    }
+
+    .beautiful-w__pictures-cont{
+        margin-top: 0;
+        height: 720px;
+        gap: 15px;
+    }
+
+    .beautiful-w{
+        height: 1062px;
+        padding-top: 10px;
+    }
+
+    .beautiful-w__img{
+        width: 240px;
+        height: 238px;
+    }
+    
 }
 
 @media screen and (max-width: 1070px){
@@ -867,7 +917,10 @@ body{
         width: 420px;
     }
 
-  
+    .beautiful-w{
+        height: 1047px;
+        padding-top: 0px;
+    }
    
 }
 
@@ -946,6 +999,14 @@ body{
     .text-block__small-text{
         padding-right: 55vw;
     }
+
+    .beautiful-w{
+        height: 1045px;
+    }
+
+    .beautiful-w__img{
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -974,6 +1035,19 @@ body{
         font-size: 1.3rem;
         width: 420px;
     }
+
+    .beautiful-w__pictures-column--smaller{
+        display: none;
+    }
+
+    .black-text__subtitle{
+        width: 350px;
+    }
+
+    .beautiful-w__img{
+        width: 260px;
+    }
+    
 }
 
 @media screen and (max-width: 510px){
@@ -1013,6 +1087,9 @@ body{
         margin-left: 5vw;
     }
 
+    .capabilities__title{
+        font-size: 2.5rem;
+    }
 
 }
 
@@ -1052,4 +1129,15 @@ body{
         margin-right: 200px;
     }
     
+    .black-text__subtitle{
+        width: 330px;
+    }
+
+    .black-text__button{
+        height: 50px;
+    }
+
+    .beautiful-w{
+        height: 1032px;
+    }
 }
