@@ -152,6 +152,8 @@ html{
     letter-spacing: -0.06em;
     text-align: center;
     color: #111204;
+
+    width: 484px;
 }
 
 .black-text__subtitle{
@@ -191,6 +193,14 @@ html{
     color: #111204;
 }
 
+.black-text__small{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111204;
+}
 
 /* стили и т.д */
 
@@ -688,6 +698,20 @@ body{
     height: 119px;
 }
 
+/* CUSTOMER PRIORITY */
+
+.customer{
+    width: 100vw;
+    background-color: white;
+    padding-top: 77px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width:1680px) {
     .hero-block__svg-star{
         right: 15%;
@@ -848,7 +872,6 @@ body{
         width: 240px;
         height: 238px;
     }
-
     
     
 }
@@ -980,6 +1003,8 @@ body{
     .capabilities__cards{
         gap: 10px;
     }
+
+    
 }
 
 @media screen and (max-width: 800px){
@@ -1019,7 +1044,10 @@ body{
     .capabilities__cards-cont, .capabilities__cards{
         flex-direction: column;
     }
-    
+
+    .capabilities__single-card{
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 720px){
