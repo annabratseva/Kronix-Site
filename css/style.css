@@ -635,6 +635,59 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+.capabilities__cards-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 103px;
+    width: 100vw;
+    gap: 43px;
+}
+
+.capabilities__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 98px;
+    border-bottom: 1px solid  rgba(185, 253, 80, 0.09);
+}
+
+.capabilities__single-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+
+    width: 300px;
+    height: 280px;
+    
+}
+
+.capabilities__card-icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.capabilities__card-title{
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+.capabilities__card-subtitle{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 144%;
+    letter-spacing: -0.01em;
+    color: #9593a4;
+
+    width: 292px;
+    height: 119px;
+}
+
 @media screen and (max-width:1680px) {
     .hero-block__svg-star{
         right: 15%;
