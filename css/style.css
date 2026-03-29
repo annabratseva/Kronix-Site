@@ -651,6 +651,7 @@ body{
     margin-top: 103px;
     width: 100vw;
     gap: 43px;
+    margin-bottom: 70px;
 }
 
 .capabilities__cards{
@@ -660,6 +661,10 @@ body{
     margin: 0 auto;
     gap: 98px;
     border-bottom: 1px solid  rgba(185, 253, 80, 0.09);
+}
+
+.none{
+    border-bottom: none;
 }
 
 .capabilities__single-card{
@@ -710,6 +715,118 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 61px;
+    
+}
+
+.customer__cards{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 180px;
+}
+
+.customer__swipe-button{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    box-shadow: 0 8px 20px 0 rgba(20, 20, 43, 0.06);
+    background: #fff;
+    border: none;
+}
+
+.customer__arrow{
+    width: 15px;
+    height: 25px;
+}
+
+.customer__big-card{
+    border: 1px solid #d9d9d9;
+    border-radius: 40px;
+    width: 1000px;
+    height: 485px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+    gap: 44px;
+}
+
+.customer__big-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+}
+
+.customer__small-text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 21px;
+}
+
+.customer__logo{
+    width: 158px;
+    height: 31px;
+    margin-bottom: 26px;
+}
+
+.customer__title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 119%;
+    text-transform: capitalize;
+    color: #14142b;
+
+    width: 495px;
+}
+
+.customer__subtitle{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 144%;
+    color: rgba(17, 18, 4, 0.78);
+
+    width: 478px;
+}
+
+.customer__text-weight{
+    font-weight: 700;
+}
+
+.customer__director{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 110%;
+    color: #111204;
+    
+}
+
+.customer__director-logo{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: rgba(17, 18, 4, 0.8);
+}
+
+.up{
+    text-transform: uppercase;
+}
+
+.customer__image{
+    width: 325px;
+    height: 325px;
+}
+
+.reverse{
+    transform: rotateZ(180deg);
 }
 
 @media screen and (max-width:1680px) {
