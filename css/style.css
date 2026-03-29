@@ -202,10 +202,46 @@ html{
     color: #111204;
 }
 
-/* стили и т.д */
+.dark-theme-text{
+    padding-top: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.dark-theme-text__green{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #b9fd50;
+}
+
+.dark-theme-text__title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 121%;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-theme-text__subtitle{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+
+    width: 462px;
+    margin-top: 10px;
+}
+
+/* стили блоков и т.д */
 
 body{
-    background-color: black; 
     overflow-x: hidden;
 }
 
@@ -828,6 +864,191 @@ body{
 .reverse{
     transform: rotateZ(180deg);
 }
+
+/* PRICING */
+
+.pricing{
+    width: 100vw;
+    background-color: black;
+}
+
+.pricing__card-cont{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 112px;
+    padding-bottom: 70px;
+}
+
+.pricing__title{
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.pricing__value-view{
+    border-radius: 8px;
+    padding: 6px 20px;
+    width: 123px;
+
+    background: #b9fd50;
+    color: black;
+
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 180%;
+    text-align: center;
+    color: #111204;
+}
+
+.pricing__value-view--white{
+    width: 104px;
+    background-color: white;
+}
+
+.pricing__card-buttons-text{
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.8);
+
+    width: 265px;
+}
+
+.pricing__card{
+    border-radius: 16px;
+    width: 360px;
+    height: fit-content;
+    background: #222;
+    padding: 40px 35px;
+    border: 1px solid rgba(185, 253, 80, 0.37);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.pricing__card-buttons-extra{
+    width: 275px;
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+}
+
+.pricing__list-text--green{
+    font-weight: 600;
+    color: #b9fd50;
+}
+
+.pricing__card-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: start;
+    align-items: center;
+}
+
+.pricing__price-text{
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #b9fd50;
+}
+
+
+
+.pricing__price{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 17px;
+}
+
+.pricing__requires{
+    width: 270px;
+}
+
+.pricing__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 28px;
+    list-style-type: none;
+}
+
+.pricing__list-item::before {
+    content: "";
+   
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/star-list-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.pricing__list-item{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pricing__buttons-interactive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.pricing__button{
+    border: 1px solid #b9fd50;
+    border-radius: 8px;
+    padding: 14px 14px;
+    width: 269px;
+    height: 56px;
+    background-color: transparent;
+}
+
+
+
+.pricing__button-link{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 138%;
+    color: #fff;
+}
+
+.pricing__button--green{
+    background-color: #b9fd50;
+}
+
+.pricing__button-link--black{
+    color: black
+}
+
+/* NEWS */
+
+.news{
+    width: 100vw;
+    background-color: black;
+}
+
+
 
 @media screen and (max-width:1680px) {
     .hero-block__svg-star{
