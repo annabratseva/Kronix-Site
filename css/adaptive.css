@@ -1,0 +1,719 @@
+@media screen and (max-width:1680px) {
+    .hero-block__svg-star{
+        right: 15%;
+    }
+
+    .hero-block__svg-star3{
+        right: 30%;
+    }
+
+    .hero-block__svg-star2{
+        left: 28%;
+    }
+
+    .text-block__small-text{
+        padding-left: 15vw;
+    }
+    
+}
+
+@media screen and (max-width:1500px){
+
+    .beautiful-w__pictures-cont{
+        margin-top: 40px;
+        height: 900px;
+    }
+
+    .beautiful-w__img{
+        width: 240px;
+        height: 240px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    .beautiful-w__pictures-column{
+        height: 643px;
+    }
+
+    .beautiful-w{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1390px){
+    html{
+        font-size: 13px;
+    }
+
+    .hero-block__svg-star{
+        right: 14%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero-block__title{
+        width: 660px;
+    }
+
+    .hero-block__svg-star3{
+        top: 56%
+    }
+
+    .hero-block__svg-star2{
+        top: 55%
+    }
+
+    .text-block__small-text{
+        padding-left: 10vw;
+    }
+
+    .how-we-work__card-image{
+        width: 80px;
+        height: 80px;
+    }
+
+    .how-we-work__img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero-block__brands-icons{
+        width: 1000px;
+    }
+
+    .hero-block__brands-img{
+        width: 140px;
+        height: 35px;
+    }
+
+    .hero-block__brands-img--smaller{
+        width: 110px;
+    }
+
+
+    .green-button{
+        height: 50px;
+    }
+
+    .text-block__inner-title{
+        width: 520px;
+    }
+    
+    .text-block__inner-extra{
+        gap: 25px
+    }
+
+    .customer__cards{
+        flex-direction: column;
+    }
+
+    .customer__swipe-button{
+        display: none;
+    }
+
+    .customer__button-mobile{
+        display: flex;
+        width: 200px;
+    }
+
+    .visible{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .text-block__small-text{
+        padding-left: 11vw;
+    }
+
+    .text-block__subtitle{
+        width: 450px;
+    }
+
+    .how-we-work__line{
+        width: 250px;
+    }
+
+    .how-we-work__subtitle{
+        width: 220px;
+    }
+
+    .how-we-work__cards-icons{
+        width: 350px;
+    }
+
+    .text-block__inner{
+        gap: 40px
+    }
+
+    .text-block__inner-title{
+        width: 480px;
+    }
+
+    .beautiful-w__pictures-column--longer{
+        display: none;
+    }
+
+    .beautiful-w__pictures-column{
+        gap: 15px;
+    }
+
+    .beautiful-w__pictures-cont{
+        margin-top: 0;
+        height: 720px;
+        gap: 15px;
+    }
+
+    .beautiful-w{
+        height: 1062px;
+        padding-top: 10px;
+    }
+
+    .beautiful-w__img{
+        width: 240px;
+        height: 238px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1185px) {
+    .capabilities__cards{
+        gap: 45px;
+    }
+
+    .capabilities__card-subtitle{
+        width: 200px;
+    }
+
+    .capabilities__single-card{
+        width: 250px;
+    }
+
+    .pricing__card-cont{
+        flex-direction: column;
+    }
+
+    .pricing__value-view{
+        font-size: 1rem;
+    }
+
+    .news__cards-inner{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 1070px){
+
+   
+    .header__mobile-menu{
+        display: flex; 
+        z-index: 2;
+    }
+
+    .header__logo{
+        z-index: 2;
+    }
+
+    
+    .header__nav{
+        display: none;
+    }
+
+    .active{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+
+    html{
+        font-size: 12px;
+    }
+
+    .hero-block__title{
+        font-size: 4rem;
+        width: 400px;
+        z-index: 1;
+    }
+
+    .green-button--smaller{
+        z-index: 1;
+    }
+
+    .how-we-work__img{
+        z-index: 1;
+    }
+
+    .hero-block__subtitle{
+        font-size: 1.3rem;
+        width: 400px;
+        z-index: 1;
+    }
+
+    .hero-block__svg-star{
+        right: 23%;
+        top: 18%;
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .hero-block__svg-star3{
+        top: 48%
+    }
+
+    .hero-block__svg-star2{
+        top: 45%
+    }
+
+    .hero-block{
+        padding-top: 180px;
+    }
+
+    .hero-block__brands-icons{
+        flex-direction: column;
+        height: 400px;
+        width: 420px;
+    }
+
+    .hero-block__svg{
+        width: 300px;
+        height: 200px;
+        filter: blur(120px);
+        left: 35%;
+    }
+
+    .text-block__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-block__inner-title, .text-block__inner-extra{
+        width: 420px;
+    }
+
+    .text-block__inner-extra{
+        gap: 5px
+    }
+
+    .text-block__small-text{
+        display: flex;
+        justify-content: center;
+        padding-right: 38vw;
+    }
+
+    .how-we-work__cont{
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .how-we-work__card{
+        height: 300px;
+        width: 420px;
+    }
+
+    .beautiful-w{
+        height: 1047px;
+        padding-top: 0px;
+    }
+   
+    .capabilities__cards{
+        gap: 10px;
+    }
+
+    .customer__big-card{
+        flex-direction: column;
+        height: 780px;
+        width: 630px;
+        padding: 15px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 800px){
+    .hero-block__svg{
+        left: 33%;
+    }
+
+    .hero-block__svg-star{
+        right: 20%;
+        
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero-block__svg-star3{
+        right: 26%
+    }
+
+    .text-block__small-text{
+        padding-right: 53vw;
+    }
+
+    .how-we-work__card-image{
+        width: 70px;
+        height: 70px;
+    }
+
+    .how-we-work__img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .how-we-work__cont{
+        gap: 10px;
+    }
+
+    .capabilities__cards-cont, .capabilities__cards{
+        flex-direction: column;
+    }
+
+    .capabilities__single-card{
+        height: 250px;
+        width: 300px;
+    }
+
+    .capabilities__card-title{
+        font-size: 1.7rem;
+    }
+
+    .capabilities__card-subtitle{
+        width: 250px;
+        font-size: 1.3rem;
+    }
+
+    .customer__big-card-text{
+        width: 400px;
+    }
+
+    .customer__big-card{
+        width: 530px;
+    }
+
+    .customer__subtitle, .customer__title{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .hero-block__svg-star{
+        right: 19%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .hero-block__title{
+        font-size: 3rem;
+        width: 300px;
+    }
+    
+    .hero-block__subtitle{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+
+    .hero-block__svg-star3{
+        right: 25%;
+        top: 43% 
+    }
+
+    .hero-block__svg-star2{
+        top: 40%
+    }
+
+    .hero-block__brands-icons{
+        width: 340px;
+        height: 380px;
+        gap: 32px
+    }
+
+    .hero-block__brands-cont{
+        gap: 25px
+    }
+
+    .text-block__small-text{
+        padding-right: 55vw;
+    }
+
+    .beautiful-w{
+        height: 1045px;
+    }
+
+    .beautiful-w__img{
+        width: 250px;
+    }
+
+    .news__single-card{
+        width: 530px;
+    }
+
+    .news__button-link{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 580px){
+    .hero-block__svg-star{
+        width: 25px;
+        height: 25px;
+        right: 15%;
+    }
+
+    .hero-block__svg-star3{
+        width: 15px;
+        height: 15px;
+    }
+
+    .hero-block__svg-star2{
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .text-block__small-text{
+        padding-right: 65vw;
+    }
+
+    .text-block__subtitle{
+        font-size: 1.3rem;
+        width: 420px;
+    }
+
+    .beautiful-w__pictures-column--smaller{
+        display: none;
+    }
+
+    .black-text__subtitle{
+        width: 350px;
+    }
+
+    .beautiful-w__img{
+        width: 260px;
+    }
+
+    .customer__big-card{
+        width: 430px
+
+    }
+
+    .customer__subtitle, .customer__title{
+        width: 350px;
+    }
+
+    .customer__image{
+        width: 280px;
+        height: 280px;
+    }
+
+    .customer__big-card-text{
+        width: 350px;
+    }
+
+    .dark-theme-text__title, .dark-theme-text__subtitle{
+        width: 300px;
+    }
+    
+    .news__single-card{
+        flex-direction: column;
+        width: 300px;
+        height: 430px;
+    }
+
+    .news__img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .news__card-text{
+        width: 250px;
+        
+    }
+
+    .news__card-title, .news__card-subtitle{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .hero-block__svg-star3{
+        right: 20%;
+        
+    }
+
+    .hero-block__svg-star{
+        right: 12%;
+        top: 19%
+    }
+
+    .hero-block__svg-star2{
+        left: 20%;
+    }
+
+    .text-block__inner-title{
+        font-size: 2.5rem;
+    }
+
+   
+    .text-block__inner-title, .text-block__inner-extra, .text-block__subtitle{
+        width: 330px;
+    }
+
+    .text-block__subtitle{
+        font-size: 1.2rem;
+    }
+
+    
+    .how-we-work__card{
+        width: 350px;
+    }
+
+    .text-block__small-text{
+        margin-left: 5vw;
+    }
+
+    .capabilities__title{
+        font-size: 2.5rem;
+    }
+
+    .customer__big-card{
+        width: 360px;
+        height: 710px;
+
+    }
+
+    .customer__subtitle, .customer__title, .customer__big-card-text{
+        width: 300px;
+    }
+
+    .customer__title{
+        font-size: 1.4rem;
+    }
+
+
+    .customer__image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .customer__big-card-text{
+        align-items: start;
+    }
+
+    .black-text__title{
+        width: 250px;
+        
+    }
+
+
+    .black-text__subtitle{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .hero-block__svg-star3{
+        right: 15%;
+    }
+
+    .hero-block__svg-star{
+        right: 6%;
+        
+    }
+
+    .hero-block__svg-star2{
+        left: 18%;
+        top: 42%
+    }
+
+    .hero-block__brands-icons{
+        width: 310px;
+    }
+
+    .hero-block__brands-text{
+        font-size: 0.8rem;
+    }
+
+    .header{
+        gap: 70px;
+    }
+
+    .text-block__title{
+        
+        padding-right: 0;
+    }
+
+    .text-block__small-text{
+        margin-left: 0;
+        margin-right: 200px;
+    }
+
+
+    .black-text__button{
+        height: 50px;
+    }
+
+    .beautiful-w{
+        height: 1032px;
+    }
+
+    .customer__big-card{
+        width: 320px;
+        height: 710px;
+
+    }
+
+    .customer__subtitle, .customer__title, .customer__big-card-text{
+        width: 270px;
+    }
+
+    .customer__title{
+        font-size: 1.2rem;
+    }
+
+    .customer__subtitle{
+        font-size: 1rem;
+    }
+
+
+    .customer__image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .customer__big-card-text{
+        align-items: start;
+    }
+
+    .customer__logo{
+        width: 120px;
+    }
+
+    .pricing__card{
+        width: 320px;
+    }
+
+    .pricing__line{
+        width: 300px;
+    }
+
+    
+
+}
