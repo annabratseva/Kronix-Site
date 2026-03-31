@@ -1162,6 +1162,13 @@ body{
     width: 100vw;
     background-color: white;
     padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 64px;
 }
 
 .opacity-low{
@@ -1170,12 +1177,129 @@ body{
 
 .FAQS__form{
     width: 543px;
-    height: 947px;
+    height: 788px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 27px;
 
 }
+
+.FAQS__questions{
+    width: 543px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 27px;
+}
+
+.FAQS__card{
+    width: 543px;
+    height: 86px;
+    display: flex;
+    padding: 27px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+
+    background-color: #111204;
+    border-radius: 25px;
+}
+
+.FAQS__subtitle{
+    width: 434px;
+
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 167%;
+    color: #fff;
+}
+
+.FAQS__icon{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+}
+
+.FAQS__button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background-color: #B9FD50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.FAQS__form-cont{
+    border: 1.50px solid #111204;
+    border-radius: 14px;
+    width: 539px;
+    height: 132px;
+    padding: 8px 15px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.FAQS__ask{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 175%;
+    letter-spacing: -0.01em;
+    color: #8d8d8d;
+    opacity: 0.6;
+
+    background-color: transparent;
+    border: none;
+    width: 500px;
+}
+
+.FAQS__button-cont{
+    width: 539px;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.FAQS__answer-text{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 175%;
+    letter-spacing: -0.01em;
+    color: rgba(17, 18, 4, 0.6);
+    width: 242px;
+}
+
+.FAQS__button-send{
+    border-radius: 30px;
+    width: 140px;
+    height: 48px;
+    background: #b9fd50;
+    border: none;
+
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111204;
+
+    cursor: pointer;
+}
+
+
+
+
 
 
 
