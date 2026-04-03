@@ -269,18 +269,12 @@ html{
 
 /* стили блоков и т.д */
 
-body{
-    overflow-x: hidden;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 /* header */
 
 .header{
-    width: 100vw;
+    width: 100%;
     height: 120px;
     position: fixed;
     top: 0;
@@ -331,13 +325,14 @@ body{
 /* main */
 
 .main{
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* hero-block */
 
 .hero-block{
-    width: 100vw;
+    width: 100%;
     padding-top: 210px;
 
     display: flex;
@@ -473,7 +468,7 @@ body{
 /* how we work */
 
 .how-we-work{
-    width: 100vw;
+    width: 100%;
     padding-top: 136px;
 }
 
@@ -527,7 +522,7 @@ body{
 }
 
 .how-we-work__cont{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -547,7 +542,7 @@ body{
 /* BEAUTIFUL WORKS */
 
 .beautiful-w{
-    width: 100vw;
+    width: 100%;
     background-color: white;
     padding-top: 77px;
     height: fit-content;
@@ -562,7 +557,7 @@ body{
 }
 
 .beautiful-w__pictures-cont{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -596,7 +591,7 @@ body{
 /* CAPABILITIES */
 
 .capabilities{
-    width: 100vw;
+    width: 100%;
     padding-top: 50px;
 }
 
@@ -620,7 +615,7 @@ body{
 
 .capabilities__text-cards{
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -693,7 +688,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 103px;
-    width: 100vw;
+    width: 100%;
     gap: 43px;
     margin-bottom: 70px;
 }
@@ -750,7 +745,7 @@ body{
 /* CUSTOMER PRIORITY */
 
 .customer{
-    width: 100vw;
+    width: 100%;
     background-color: white;
     padding-top: 77px;
     height: fit-content;
@@ -764,7 +759,7 @@ body{
 }
 
 .customer__cards{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -883,12 +878,12 @@ body{
 /* PRICING */
 
 .pricing{
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
 .pricing__card-cont{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1059,12 +1054,12 @@ body{
 /* NEWS */
 
 .news{
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
 .news__cards{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1316,7 +1311,7 @@ body{
 /* BANNER */
 
 .banner{
-    width: 100vw;
+    width: 100%;
     background-color: transparent;
     position: relative;
 }
@@ -1396,7 +1391,7 @@ body{
 /* FOOTER */
 
 .footer{
-    width: 100vw;
+    width: 100%;
     background-color: black;
     height: fit-content;
     padding-top: 70px;
@@ -1484,12 +1479,12 @@ body{
 }
 
 .footer__line{
-    width: 68vw;
+    width: 68%;
     margin: 0 auto;
 }
 
 .footer__bottom{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1522,7 +1517,7 @@ body{
 
 
 .footer__bottom-inner{
-    width: 90vw;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;

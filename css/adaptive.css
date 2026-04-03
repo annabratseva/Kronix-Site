@@ -134,7 +134,7 @@
 
 @media screen and (max-width: 1280px) {
     .text-block__small-text{
-        padding-left: 11vw;
+        padding-left: 11%;
     }
 
     .text-block__subtitle{
@@ -667,8 +667,9 @@
     }
 
     
-    .how-we-work__card{
-        width: 350px;
+    .how-we-work__card, .how-we-work__cards-icons, .how-we-work__title{
+        width: 100%;
+        max-width: 330px;
     }
 
     .text-block__small-text{
