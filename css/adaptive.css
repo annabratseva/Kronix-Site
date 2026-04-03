@@ -134,7 +134,7 @@
 
 @media screen and (max-width: 1280px) {
     .text-block__small-text{
-        padding-left: 11%;
+        padding-left: 11vw;
     }
 
     .text-block__subtitle{
@@ -358,6 +358,12 @@
         width: 400px;
     }
     
+    .light__svg{
+        width: 200px;
+        height: 200px;
+        left: 35%;
+        filter: blur(100px);
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -546,6 +552,8 @@
         width: 200px;
         text-align: start;
     }
+
+    
 }
 
 @media screen and (max-width: 580px){
@@ -554,6 +562,8 @@
         height: 25px;
         right: 15%;
     }
+
+    
 
     .hero-block__svg-star3{
         width: 15px;
@@ -629,6 +639,9 @@
         width: 250px;
     }
 
+   
+
+  
     
 }
 
@@ -667,9 +680,8 @@
     }
 
     
-    .how-we-work__card, .how-we-work__cards-icons, .how-we-work__title{
-        width: 100%;
-        max-width: 330px;
+    .how-we-work__card{
+        width: 310px;
     }
 
     .text-block__small-text{
@@ -740,12 +752,8 @@
         width: fit-content;
     }
 
-    .header{
-        width: 100vw;
-    }
-
     .light__svg{
-        width: 100vw;
+        left: 25%;
     }
     
 }
@@ -868,6 +876,10 @@
     .FAQS__subtitle{
         width: 280px;
         font-size: 1rem;
+    }
+
+    .light__svg{
+        left: 20%;
     }
 
 }

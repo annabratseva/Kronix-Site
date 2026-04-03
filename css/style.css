@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     text-decoration: none;
-    outline: 1px solid red;
    
 }
 
@@ -243,16 +242,16 @@ html{
 .light__svg{
     position: absolute;
     top: 20%;
-    left: calc(50vw - 11vw);
+    left: 35%;
     z-index: 1;
     border-radius: 100%;
     background-color: rgba(185, 253, 80, 0.4);
     filter: blur(180px);
     
 
-    width: 100%;
-    max-width: 439px;
+    width: 300px;
     height: 309px;
+    overflow-x: hidden;
 }
 
 .logo{
@@ -270,13 +269,15 @@ html{
 
 /* стили блоков и т.д */
 
-
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
 
 /* header */
 
 .header{
-    width: 100%;
-
+    width: 100vw;
     height: 120px;
     position: fixed;
     top: 0;
@@ -327,14 +328,14 @@ html{
 /* main */
 
 .main{
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 /* hero-block */
 
 .hero-block{
-    width: 100%;
+    width: 100vw;
     padding-top: 210px;
 
     display: flex;
@@ -351,6 +352,8 @@ html{
     align-items: center;
     gap: 42px;
     width: 100%;
+    position: relative;
+   
    
 }
 
@@ -470,7 +473,7 @@ html{
 /* how we work */
 
 .how-we-work{
-    width: 100%;
+    width: 100vw;
     padding-top: 136px;
 }
 
@@ -524,7 +527,7 @@ html{
 }
 
 .how-we-work__cont{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -544,7 +547,7 @@ html{
 /* BEAUTIFUL WORKS */
 
 .beautiful-w{
-    width: 100%;
+    width: 100vw;
     background-color: white;
     padding-top: 77px;
     height: fit-content;
@@ -559,7 +562,7 @@ html{
 }
 
 .beautiful-w__pictures-cont{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -593,7 +596,7 @@ html{
 /* CAPABILITIES */
 
 .capabilities{
-    width: 100%;
+    width: 100vw;
     padding-top: 50px;
 }
 
@@ -617,7 +620,7 @@ html{
 
 .capabilities__text-cards{
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -690,7 +693,7 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: 103px;
-    width: 100%;
+    width: 100vw;
     gap: 43px;
     margin-bottom: 70px;
 }
@@ -747,7 +750,7 @@ html{
 /* CUSTOMER PRIORITY */
 
 .customer{
-    width: 100%;
+    width: 100vw;
     background-color: white;
     padding-top: 77px;
     height: fit-content;
@@ -761,7 +764,7 @@ html{
 }
 
 .customer__cards{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -880,12 +883,12 @@ html{
 /* PRICING */
 
 .pricing{
-    width: 100%;
+    width: 100vw;
     background-color: black;
 }
 
 .pricing__card-cont{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1056,12 +1059,12 @@ html{
 /* NEWS */
 
 .news{
-    width: 100%;
+    width: 100vw;
     background-color: black;
 }
 
 .news__cards{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1162,10 +1165,10 @@ html{
 /* FAQS */
 
 .FAQS{
-    width: 100%;
+    width: 100vw;
     background-color: white;
     height: 1338px;
-    overflow-x: hidden;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -1180,22 +1183,13 @@ html{
 }
 
 .FAQS__form{
-    width: 100%;
-    max-width: 543px;
+    width: 543px;
     height: 788px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 27px;
 
-}
-
-.FAQS__questions,
-.FAQS__card,
-.FAQS__form-cont,
-.FAQS__button-cont {
-    width: 100%;
-    max-width: 543px;
 }
 
 .FAQS__questions{
@@ -1273,7 +1267,7 @@ html{
 
     background-color: transparent;
     border: none;
-    width: 100%;
+    width: 500px;
 }
 
 .FAQS__button-cont{
@@ -1313,7 +1307,7 @@ html{
 /* BANNER */
 
 .banner{
-    width: 100%;
+    width: 100vw;
     background-color: transparent;
     position: relative;
 }
@@ -1393,11 +1387,10 @@ html{
 /* FOOTER */
 
 .footer{
-    width: 100%;
+    width: 100vw;
     background-color: black;
     height: fit-content;
     padding-top: 70px;
-    overflow-x: hidden;
     
 
     display: flex;
@@ -1418,8 +1411,7 @@ html{
     font-size: 1rem;
     line-height: 153%;
     color: #fff;
-    width: 100%;
-    max-width: 311px;
+    width: 311px;
 }
 
 .distance{
@@ -1429,7 +1421,7 @@ html{
 .footer__cont{
     display: flex;
     justify-content: space-around;
-    
+    width: 100vw;
 }
 
 .footer__facebook{
@@ -1481,12 +1473,12 @@ html{
 }
 
 .footer__line{
-    width: 68%;
+    width: 68vw;
     margin: 0 auto;
 }
 
 .footer__bottom{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1519,7 +1511,7 @@ html{
 
 
 .footer__bottom-inner{
-    width: 90%;
+    width: 90vw;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
