@@ -14,6 +14,8 @@
     .text-block__small-text{
         padding-left: 15vw;
     }
+
+    
     
 }
 
@@ -39,6 +41,10 @@
 
     .beautiful-w{
         padding-bottom: 0px;
+    }
+
+    .footer__line{
+        width: 73vw;
     }
 }
 
@@ -178,7 +184,7 @@
         width: 240px;
         height: 238px;
     }
-    
+  
     
 }
 
@@ -206,6 +212,8 @@
     .news__cards-inner{
         flex-direction: column;
     }
+
+
     
 }
 
@@ -343,7 +351,12 @@
         width: 630px;
         padding: 15px;
     }
+
     
+    .dark-theme-text__title-banner{
+        font-size: 3.5rem;
+        width: 400px;
+    }
     
 }
 
@@ -410,6 +423,28 @@
     .customer__subtitle, .customer__title{
         width: 400px;
     }
+
+    .dark-theme-text__title-banner{
+        font-size: 2.7rem;
+        width: 300px;
+    }
+
+    .dark-theme-text__subtitle--new{
+        width: 270px;
+    }
+
+    .footer__subtitle{
+        width: 260px;
+    }
+
+    .footer__list{
+        width: 300px;
+    }
+
+    .banner__inner-cont{
+        width: 70vw;
+    }
+  
 }
 
 @media screen and (max-width: 720px){
@@ -468,6 +503,49 @@
         font-size: 0.9rem;
     }
     
+    .FAQS__form, .FAQS__questions, .FAQS__card, .FAQS__form-cont, .FAQS__button-cont{
+        width: 450px;
+    }
+
+    .FAQS__card{
+        height: 70px;
+    }
+
+    .FAQS__button{
+        width: 45px;
+        height: 38px;
+    }
+
+    .FAQS__answer-text{
+        width: 180px;
+    }
+
+    .footer__cont{
+        flex-direction: column;
+        
+        align-items: center;
+        gap: 50px;
+        padding-top: 0px;
+    }
+
+    .footer__line{
+        width: 600px;
+    }
+
+    .footer__bottom-inner{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__logo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__subtitle{
+        width: 200px;
+        text-align: start;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -550,9 +628,17 @@
     .news__card-title, .news__card-subtitle{
         width: 250px;
     }
+
+    
 }
 
+
 @media screen and (max-width: 510px){
+
+    .beautiful-w__pictures-column{
+        height: 708px;
+    }
+
     .hero-block__svg-star3{
         right: 20%;
         
@@ -626,6 +712,34 @@
     .black-text__subtitle{
         width: 250px;
     }
+
+    .FAQS__form, .FAQS__questions, .FAQS__card, .FAQS__form-cont, .FAQS__button-cont{
+        width: 400px;
+    }
+
+    .FAQS__card{
+        height: 60px;
+    }
+
+    .FAQS__button{
+        width: 45px;
+        height: 30px;
+    }
+
+    .FAQS__icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    .FAQS__button-send{
+        font-size: 1.2rem;
+    }
+
+    .dark-theme-new{
+        width: fit-content;
+    }
+
+    
 }
 
 @media screen and (max-width: 420px){
@@ -680,6 +794,10 @@
 
     }
 
+    .beautiful-w__pictures-column{
+        height: 642px;
+    }
+
     .customer__subtitle, .customer__title, .customer__big-card-text{
         width: 270px;
     }
@@ -714,6 +832,34 @@
         width: 300px;
     }
 
-    
+    .FAQS__form, .FAQS__questions, .FAQS__card, .FAQS__form-cont, .FAQS__button-cont{
+        width: 320px;
+    }
+
+    .FAQS__card{
+        height: 55px;
+        border-radius: 20px;
+    }
+
+    .FAQS__button{
+        width: 42px;
+        height: 32px;
+    }
+
+    .FAQS__icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    .FAQS__button-send{
+        font-size: 1rem;
+        width: 100px;
+        height: 35px;
+    }
+
+    .FAQS__subtitle{
+        width: 280px;
+        font-size: 1rem;
+    }
 
 }
