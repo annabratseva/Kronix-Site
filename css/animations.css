@@ -1,0 +1,51 @@
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+.scrollTop{
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #B9FD50;
+    color: #1a1a1a;
+    padding: 15px;
+    position: fixed;
+  
+    border: none;
+    border-radius: 50%;
+   
+    top: 40px;
+    left: 40px;
+    
+
+    width: 40px;
+    height: 40px;
+
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transition: 2s ease-in-out;
+}
+
+.scrollTop__button{
+    width: 20px;
+    height: 20px;
+    transform: rotateZ(180deg);
+    cursor: pointer;
+    
+}
+
+.show{
+    display: flex;
+}
+

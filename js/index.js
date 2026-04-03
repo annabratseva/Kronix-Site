@@ -1,5 +1,6 @@
-const openMenu = () => {
-    mobileMenu.classList.toggle("active")
-}
+import {openMenu} from "./modules/header.js"
+import { scrollTop } from "./modules/scrollTop.js";
+import { buttonClick } from "./modules/scrollTop.js";
 
-const mobileMenu = document.querySelector(".header__nav")
+window.openMenu = openMenu;
+window.buttonClick = buttonClick;
