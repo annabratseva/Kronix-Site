@@ -271,6 +271,9 @@ html{
 body{
     overflow-x: hidden;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* header */
@@ -1161,10 +1164,10 @@ body{
 /* FAQS */
 
 .FAQS{
-    width: 100vw;
+    width: 100%;
     background-color: white;
     height: 1338px;
-    overflow: hidden;
+    overflow-x: hidden;
 
     display: flex;
     flex-direction: column;
@@ -1179,13 +1182,22 @@ body{
 }
 
 .FAQS__form{
-    width: 543px;
+    width: 100%;
+    max-width: 543px;
     height: 788px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 27px;
 
+}
+
+.FAQS__questions,
+.FAQS__card,
+.FAQS__form-cont,
+.FAQS__button-cont {
+    width: 100%;
+    max-width: 543px;
 }
 
 .FAQS__questions{
@@ -1263,7 +1275,7 @@ body{
 
     background-color: transparent;
     border: none;
-    width: 500px;
+    width: 100%;
 }
 
 .FAQS__button-cont{
@@ -1387,6 +1399,7 @@ body{
     background-color: black;
     height: fit-content;
     padding-top: 70px;
+    overflow-x: hidden;
     
 
     display: flex;
@@ -1417,7 +1430,7 @@ body{
 .footer__cont{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    
 }
 
 .footer__facebook{
