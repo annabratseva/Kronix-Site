@@ -4,3 +4,4 @@ import { buttonClick } from "./modules/scrollTop.js";
 
 window.openMenu = openMenu;
 window.buttonClick = buttonClick;
+
