@@ -740,6 +740,13 @@
         width: fit-content;
     }
 
+    .header{
+        width: 100vw;
+    }
+
+    .light__svg{
+        width: 100vw;
+    }
     
 }
 
