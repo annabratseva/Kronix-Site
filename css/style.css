@@ -178,6 +178,7 @@ html{
     gap: 8px;
 
     margin-top: 25px;
+
 }
 
 .black-text__icon{
@@ -191,6 +192,8 @@ html{
     line-height: 100%;
     text-align: center;
     color: #111204;
+
+
 }
 
 .black-text__small{
