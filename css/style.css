@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     text-decoration: none;
+    outline: 1px solid red;
    
 }
 
@@ -1420,7 +1421,8 @@ body{
     font-size: 1rem;
     line-height: 153%;
     color: #fff;
-    width: 311px;
+    width: 100%;
+    max-width: 311px;
 }
 
 .distance{
