@@ -1,6 +1,9 @@
 import {openMenu} from "./modules/header.js"
 import { scrollTop } from "./modules/scrollTop.js";
 import { buttonClick } from "./modules/scrollTop.js";
+import { faqCheck } from "./modules/checkInput.js";
+
+faqCheck()
 
 window.openMenu = openMenu;
 window.buttonClick = buttonClick;

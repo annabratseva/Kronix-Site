@@ -3,6 +3,7 @@
 
 
 @import "./animations.css";
+@import "./book-call.css";
 
 *{
     margin: 0;
