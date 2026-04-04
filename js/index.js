@@ -22,6 +22,7 @@ window.addEventListener("mousemove", (e) => {
     title.style.transform = `translate(${moveX}px, ${moveY}px)`
 })
 
+
 const elements = document.querySelectorAll('.fade-in');
 
 // для появления эл. и т.д
