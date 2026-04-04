@@ -99,12 +99,15 @@
 .footer__facebook,
 .footer__icon,
 .news__single-card,
-.pricing__card,
 .pricing__button,
+.pricing__card
 .book-call__button{
     transition: .3s ease-in-out;
 }  
 
+.hero-block__text-cont{
+    transition: transform 0.1s linear;
+}
 
 .header__li-element:hover{
     transform:scale(1.1)
@@ -123,6 +126,8 @@
 .pricing__button{
     cursor: pointer;
 }
+
+
 
 .green-button:hover{
    box-shadow: 1px 20px 45px -6px rgba(185,253,80,0.55);
