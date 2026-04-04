@@ -9,6 +9,18 @@
     }
 }
 
+@keyframes formSlide {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 @keyframes hero-slide {
     0% {
         transform: translateY(-90px);
@@ -87,7 +99,8 @@
 .footer__icon,
 .news__single-card,
 .pricing__card,
-.pricing__button{
+.pricing__button,
+.book-call__button{
     transition: .3s ease-in-out;
 }  
 
@@ -177,5 +190,12 @@
 .pricing__button:hover{
     transform: scale(1.044);
     border-bottom: 7px solid #B9FD50;
+    
+}
+
+.book-call__button:hover{
+    border: 1px solid #B9FD50;
+    color:#B9FD50;
+    background-color: #1a1a1a;
     
 }
