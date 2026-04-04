@@ -59,6 +59,7 @@ html{
     height: 56px;
     background-color: #B9FD50;
     border: none;
+    cursor: pointer;
 }
 
 .green-button__text{
@@ -298,6 +299,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 .header__link{
@@ -1385,6 +1387,7 @@ body{
     align-items: center;
     gap: 12px;
     margin-top: 19px;
+    cursor: pointer;
 }
 
 .light__svg--new{

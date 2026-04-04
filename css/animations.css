@@ -9,6 +9,28 @@
     }
 }
 
+@keyframes hero-slide {
+    0% {
+        transform: translateY(-90px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(20px);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.hero-block__text-cont *{
+    animation-name: hero-slide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    transition: .3s ease-in-out;
+}
 
 .scrollTop{
     display: none;
@@ -35,6 +57,7 @@
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     transition: 2s ease-in-out;
+    cursor: pointer;
 }
 
 .scrollTop__button{
@@ -49,3 +72,110 @@
     display: flex;
 }
 
+.header *, 
+.black-text *, 
+.green-button,
+.hero-block__brands-img,
+.black-text__button,
+.capabilities__button,
+.footer__li-element, 
+.news__button-cont,
+.capabilities__text-card,
+.customer__swipe-button,
+.FAQS__button-send,
+.footer__facebook,
+.footer__icon,
+.news__single-card,
+.pricing__card,
+.pricing__button{
+    transition: .3s ease-in-out;
+}  
+
+
+.header__li-element:hover{
+    transform:scale(1.1)
+}
+
+.hero-block__brands-img, 
+.capabilities__button,
+.news__button-cont,
+.capabilities__text-card,
+.customer__swipe-button,
+.FAQS__button-send,
+.footer__facebook,
+.footer__icon,
+.news__single-card,
+.pricing__card,
+.pricing__button{
+    cursor: pointer;
+}
+
+.green-button:hover{
+   box-shadow: 1px 20px 45px -6px rgba(185,253,80,0.55);
+   transform: translateY(-5px);
+}
+
+.fade-in{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-block__brands-img:hover{
+    transform:scale(1.1)
+}
+
+.black-text__button:hover{
+    transform: scale(0.95);
+    border-bottom: 7px solid #1a1a1a;
+}
+
+.capabilities__button:hover{
+    transform: scale(0.95);
+    border: 1px solid #B9FD50;
+    padding: 10px 20px;
+
+    border-radius: 20px;
+}
+
+.footer__li-element:hover{
+    transform: scale(1.1); 
+}
+
+.news__button-cont:hover{
+    border-bottom: 8px solid#B9FD50;
+   
+}
+
+.capabilities__text-card:hover{
+    transform: translateY(-5px) scale(0.95);
+}
+
+.customer__swipe-button:hover{
+    border-bottom: 7px solid #1a1a1a;
+}
+
+.FAQS__button-send:hover{
+    background-color: #1a1a1a;
+    color:#B9FD50;
+    transform: scale(0.95);
+}
+
+.footer__facebook:hover, .footer__icon:hover{
+    transform: scale(1.1);
+}
+
+.news__single-card:hover, .pricing__card:hover{
+    transform: translateY(-8px);
+}
+
+.pricing__button:hover{
+    transform: scale(1.044);
+    border-bottom: 7px solid #B9FD50;
+    
+}

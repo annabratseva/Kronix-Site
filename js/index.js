@@ -5,3 +5,17 @@ import { buttonClick } from "./modules/scrollTop.js";
 window.openMenu = openMenu;
 window.buttonClick = buttonClick;
 
+const elements = document.querySelectorAll('.fade-in');
+
+// для появления элементов и т.д
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+
+elements.forEach(el => observer.observe(el));
+

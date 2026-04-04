@@ -2,7 +2,7 @@ const upButton = document.querySelector(".scrollTop")
 
 export const scrollTop = () => {
     let count = window.scrollY
-    if (count > 1000) {
+    if (count > 700) {
         upButton.classList.add("show")
     }else{
         upButton.classList.remove("show")
