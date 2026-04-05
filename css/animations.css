@@ -105,7 +105,7 @@
     transition: .3s ease-in-out;
 }  
 
-.hero-block__text-cont{
+.hero-block__text-cont, .banner__inner-cont,.green-button--new{
     transition: transform 0.1s linear;
 }
 
