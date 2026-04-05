@@ -961,6 +961,9 @@ body{
 .customer__image{
     width: 325px;
     height: 325px;
+    border-radius: 50%;
+    
+   
 }
 
 .reverse{
