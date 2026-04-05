@@ -14,8 +14,6 @@ export const mouseMoveTwo = () => {
     const y = (e.clientY / window.innerHeight - 0.5)
 
     items.forEach(item => {
-      if (!item.el) return
-
       const moveX = x * item.speedX
       const moveY = y * item.speedY
 

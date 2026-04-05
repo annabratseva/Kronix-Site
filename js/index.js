@@ -5,7 +5,12 @@ import { faqCheck } from "./modules/checkInput.js";
 import { bookCallFunc } from "./modules/book-call.js";
 import { mouseMoveTwo } from "./modules/mousemove.js";
 import { customerFunc } from "./modules/customer.js";
+import { LoadMore_HelpWith } from "./modules/loadMore.js";
+import { LoadMore_Posters } from "./modules/loadMore.js";
 
+
+LoadMore_HelpWith()
+LoadMore_Posters()
 mouseMoveTwo()
 bookCallFunc()
 faqCheck()
@@ -14,20 +19,7 @@ customerFunc()
 window.openMenu = openMenu;
 window.buttonClick = buttonClick;
 
-const elements = document.querySelectorAll('.fade-in');
 
-// для появления эл. и т.д
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target);
-    }
-  });
-});
-
-
-elements.forEach(el => observer.observe(el));
 
 
 
