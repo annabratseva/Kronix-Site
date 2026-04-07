@@ -1,4 +1,5 @@
 export const mouseMoveTwo = () => {
+
   const customerCard = document.querySelector(".customer__big-card")
   const banner = document.querySelector(".banner__inner-cont")
   const greenButtonNew = document.querySelector(".green-button--new")

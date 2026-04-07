@@ -4,6 +4,8 @@ export const customerFunc = () => {
     const image = document.querySelector(".customer__image")
     const nextButton = document.querySelector(".customer__swipe-button--right")
     const prevButton = document.querySelector(".customer__swipe-button--left")
+    const mobileButton = document.querySelector(".left")
+    const mobileButton2 = document.querySelector(".right")
 
     const newCards = [
         {
@@ -31,8 +33,18 @@ export const customerFunc = () => {
         image.src = newCards[current].image
     }
 
+    mobileButton2.addEventListener("click", () => {
+        current = (current + 1) % newCards.length
+        renderCard()
+    })
+
     nextButton.addEventListener("click", () => {
         current = (current + 1) % newCards.length
+        renderCard()
+    })
+
+    mobileButton.addEventListener("click", () => {
+        current = (current - 1 + newCards.length) % newCards.length
         renderCard()
     })
 
