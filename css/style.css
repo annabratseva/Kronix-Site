@@ -592,7 +592,7 @@ body{
     width: 340px;
     height: 340px;
     object-fit: cover;
-    display: block;
+    flex: none;
 }
 
 

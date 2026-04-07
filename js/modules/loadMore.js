@@ -73,7 +73,7 @@ export const LoadMore_Posters = () => {
       [
         "https://i.pinimg.com/originals/55/5a/05/555a053cc3b67d89517831c3bf69421e.jpg",
         "https://img.freepik.com/free-photo/minimal-podium-product-display-stand-pedestal-studio-gray-color-background-3d-rendering_56104-1752.jpg",
-        "https://i.pinimg.com/736x/30/29/f9/3029f907333e929bb4dcbc08c1313fe8.jpg"
+        "https://i.pinimg.com/736x/e4/fa/23/e4fa233fe735bb4e3c286b288c0df4a5.jpg"
       ],
       [
         "https://i.pinimg.com/736x/e4/fa/23/e4fa233fe735bb4e3c286b288c0df4a5.jpg",
