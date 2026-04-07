@@ -78,6 +78,19 @@ const openFAQS = (btn) => {
     FAQSbutton.classList.toggle("activeFAQS")
 }
 
+const buyButtons = document.querySelectorAll(".pricing__button-link--black")
+
+const buy = () => {
+  buyButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      btn.innerText = "Added to the cart!"
+
+      setTimeout(() => {
+        btn.innerText = "Click to buy"
+      }, 2000)
+    })
+  })
+}
 
 
 

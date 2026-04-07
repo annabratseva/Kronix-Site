@@ -10,6 +10,7 @@ export const faqCheck = () => {
             alertText.innerText = "You've submitted nothing! Type your question first."
         } else {
             alertText.innerText = "Your question has submitted successfully!"
+            document.cookie = `question=${value}; max-age=${24*60*60*1000}`
             
             setTimeout(() => {
                 inputText.value = ""
