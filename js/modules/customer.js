@@ -9,17 +9,17 @@ export const customerFunc = () => {
         {
             title: "Kornix is an agency where you certainly get a good result. A high service!",
             subtitle: "I wasn't sure at first, because it was my first ever experince, but it was totally worth it! I'm remained satisfied with the product and the company service overall.",
-            image: "../img/man-customer2.png"
+            image: "https://miro.medium.com/1*IFPDGn_-sne4fJffryZETQ.png"
         },
         {
             title: "I absolutely adore the company, and thanks to Kronix I have a succesfull design!",
             subtitle: "I definitely will use in the future and I hope that the company continues to provide such a high-quality work.",
-            image: "../img/man-customer4.jpg"
+            image: "https://toktiv.com/wp-content/uploads/2020/08/team-3.jpg"
         },
         {
             title: "Kornix is the best digital agency i have ever seen! Highly Recommended!",
             subtitle: "I recently hired Ideapeel for a custom web development project and couldn't be happier with the results. The team was able to bring my unique ideas to life and create a website that truly stands out.",
-            image: "../img/man-customer.png"
+            image: "https://clementsdental.com/wp-content/uploads/2023/06/@Fd2X@HoSi519-385x385.png"
         }
     ]
 

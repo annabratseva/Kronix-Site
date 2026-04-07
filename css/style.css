@@ -585,11 +585,14 @@ body{
 .beautiful-w__pictures-column--longer{
     align-items: center;
     justify-content: end;
+    
 }
 
 .beautiful-w__img{
     width: 340px;
     height: 340px;
+    object-fit: cover;
+    display: block;
 }
 
 
