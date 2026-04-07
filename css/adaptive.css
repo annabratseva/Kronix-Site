@@ -677,7 +677,18 @@
         width: 220px;
     }
 
-  
+    .login-menu__form{
+        width: 400px;
+
+    }
+
+    .login-menu__item{
+        width: 300px;   
+    }
+
+    .login-menu__title{
+        font-size: 1.9rem;
+    }
     
 }
 
@@ -808,6 +819,21 @@
     .book-call__button{
         width: 150px;
         height: 40px;
+    }
+
+    .login-menu__form{
+        width: 300px;
+
+    }
+
+    .login-menu__item{
+        width: 220px;
+        height: 35px;
+    }
+
+    .login-menu__title{
+        font-size: 1.6rem;
+        width: 200px;
     }
     
 }

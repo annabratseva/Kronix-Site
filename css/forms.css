@@ -1,0 +1,208 @@
+.book-call{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000a8;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+
+.book-call__form {
+    width: 450px;
+    height: 440px;
+    padding: 15px;
+
+    position: relative;
+   
+    background-color: #111204;
+    border: 2px solid #B9FD50;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+
+    box-shadow: 1px 20px 45px -6px rgba(184, 253, 80, 0.281);
+
+    animation-name: formSlide;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    transition: 2s ease-in-out;
+}
+
+.book-call__button{
+    color:#111204;
+    background-color: #B9FD50;
+    padding: 10px 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.book-call__item::placeholder{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.199);
+    font-weight: 700;
+}
+
+.book-call__close{
+    background-color: #B9FD50;
+    border-radius: 50px;
+    border: none;
+
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    color:#111204;
+    font-weight: 700;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.book-call__item{
+    color: rgba(0, 0, 0, 0.199);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: white;
+    width: 350px;
+    border: none;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 15px;
+    border-bottom: 5px solid #B9FD50;
+}
+
+.book-call__title{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 300px;
+}
+
+
+
+.login-menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000a8;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.login-menu__form{
+    width: 450px;
+    height: 550px;
+    padding: 15px;
+
+    position: relative;
+   
+    background-color: #111204;
+    border: 2px solid #B9FD50;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+
+    box-shadow: 1px 20px 45px -6px rgba(184, 253, 80, 0.281);
+
+    animation-name: formSlide;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    transition: 2s ease-in-out;
+}
+
+.login-menu__item{
+    color: rgba(0, 0, 0, 0.199);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: white;
+    width: 350px;
+    border: none;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 15px;
+    border-bottom: 5px solid #B9FD50;
+}
+
+.login-menu__item::placeholder{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.199);
+    font-weight: 700;
+}
+
+.login-menu__button{
+    color:#111204;
+    background-color: #B9FD50;
+    padding: 10px 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+  
+    cursor: pointer;
+}
+
+.login-menu__title{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 300px;
+}
+
+.login-menu__close{
+    background-color: #B9FD50;
+    border-radius: 50px;
+    border: none;
+
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    color:#111204;
+    font-weight: 700;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.login-menu__choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-menu__text{
+    color: white;
+    font-size: 1rem;
+    font-size: 700;
+}
+
+
+.showBook{
+    display: flex;
+}

@@ -1,10 +1,10 @@
 export const mouseMoveTwo = () => {
-  const title = document.querySelector(".hero-block__text-cont")
+  const customerCard = document.querySelector(".customer__big-card")
   const banner = document.querySelector(".banner__inner-cont")
   const greenButtonNew = document.querySelector(".green-button--new")
 
   const items = [
-    { el: title, speedX: 30, speedY: 20 },
+    { el: customerCard, speedX: 30, speedY: 20 },
     { el: banner, speedX: 50, speedY: 50 },
     { el: greenButtonNew, speedX: 40, speedY: 40}
   ]

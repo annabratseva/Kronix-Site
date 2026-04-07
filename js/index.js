@@ -7,8 +7,10 @@ import { mouseMoveTwo } from "./modules/mousemove.js";
 import { customerFunc } from "./modules/customer.js";
 import { LoadMore_HelpWith } from "./modules/loadMore.js";
 import { LoadMore_Posters } from "./modules/loadMore.js";
+import { scrollFade } from "./modules/scrollTop.js";
 
 
+scrollFade()
 LoadMore_HelpWith()
 LoadMore_Posters()
 mouseMoveTwo()
@@ -18,7 +20,6 @@ customerFunc()
 
 window.openMenu = openMenu;
 window.buttonClick = buttonClick;
-
 
 
 

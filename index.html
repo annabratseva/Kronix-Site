@@ -6,7 +6,7 @@
     <title>KRONIX</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/adaptive.css">
-    <link rel="stylesheet" href="./css/book-call.css">
+    
 
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <link rel="canonical" href="https://annabratseva.github.io/Kronix-Site/"> 
@@ -106,14 +106,15 @@
         <button class="header__mobile-menu" aria-label="Menu" onclick="openMenu()"><img src="./img/burger-menu.svg" alt="MENU" class="header__menu-icon"></button>
 
         <nav class="header__nav">
+            <li class="header__li-element"><p class="header__link header__link--user"></p></li>
             <li class="header__li-element"><a href="#process" class="header__link">Process</a></li>
             <li class="header__li-element"><a href="#benefits" class="header__link">Benefits</a></li>
             <li class="header__li-element"><a href="#services" class="header__link">Services</a></li>
             <li class="header__li-element"><a href="#portfolio" class="header__link">Portfolio</a></li>
             <li class="header__li-element"><a href="#FAQ" class="header__link">FAQ</a></li>
-            <button class="green-button green-button--mobile"><a href="#" class="green-button__text">Get Started</a></button>
+            <button class="green-button green-button--mobile" type="button" onclick="LoginData()"><a  class="green-button__text">Get Started</a></button>
 
-            <button class="green-button login-button"><a href="#" class="green-button__text">Get Started</a></button>
+            <button class="green-button login-button" type="button" onclick="LoginData()"><a class="green-button__text">Get Started</a></button>
         </nav>
 
         
@@ -122,14 +123,30 @@
 
     <main class="main">
 
+
+        <div class="login-menu">
+            <form class="login-menu__form">
+                <h1 class="login-menu__title">Create your account.</h1>
+                <button class="login-menu__close" type="button" onclick="CloseLogin()">X</button>
+                <input type="text" class="login-menu__item" name="login" placeholder="Login: ">
+                <input type="password" class="login-menu__item" name="password" placeholder="Password: ">
+                <input type="password" class="login-menu__item" name="passwordConf" placeholder="Confirm password: ">
+                <input type="email" class="login-menu__item" name="email" placeholder="Email: ">
+                <p class="login-menu__text">Check everything before clicking.</p>
+
+                <button type="button" class="login-menu__button" onclick="SignUp()">Sign Up</button>
+                
+            </form>
+        </div>
+
         <div class="book-call">
             <form class="book-call__form">
-                <button class="book-call__close">X</button>
+                <button class="book-call__close" type="button">X</button>
                 <h1 class="book-call__title">Book your appointment in one click.</h1>
                 <input type="email" class="book-call__item" name="email" placeholder="Your EMAIL: ">
                 <input type="text" class="book-call__item" name="number" placeholder="Your NUMBER: ">
 
-                <button class="book-call__button" type="submit">Book A Call</button>
+                <button class="book-call__button" type="button" onclick="bookCallCookie()">Book A Call</button>
             </form>
         </div>
 
@@ -601,7 +618,7 @@
                     </div>
 
                     <div class="pricing__buttons-interactive">
-                        <button class="pricing__button"><a class="pricing__button-link">Book A Call</a></button>
+                        <button class="pricing__button" onclick="openBook()"><a class="pricing__button-link">Book A Call</a></button>
 
                         <button class="pricing__button pricing__button--green"><a href="#" class="pricing__button-link pricing__button-link--black">Click to buy</a></button>
                     </div>
@@ -661,7 +678,7 @@
                     </div>
 
                     <div class="pricing__buttons-interactive">
-                        <button class="pricing__button"><a class="pricing__button-link">Book A Call</a></button>
+                        <button class="pricing__button" onclick="openBook()"><a class="pricing__button-link">Book A Call</a></button>
 
                         <button class="pricing__button pricing__button--green"><a href="#" class="pricing__button-link pricing__button-link--black">Click to buy</a></button>
                     </div>
@@ -719,7 +736,7 @@
                     </div>
 
                     <div class="pricing__buttons-interactive">
-                        <button class="pricing__button"><a class="pricing__button-link">Book A Call</a></button>
+                        <button class="pricing__button" onclick="openBook()"><a class="pricing__button-link">Book A Call</a></button>
 
                         <button class="pricing__button pricing__button--green"><a href="#" class="pricing__button-link pricing__button-link--black">Click to buy</a></button>
                     </div>
@@ -870,28 +887,44 @@
                 <div class="FAQS__questions">
 
                     <div class="FAQS__card">
-                        <p class="FAQS__subtitle">Do you have specific princing plans to show?</p>
+                        <div class="FAQS__card-cont">
+                            <p class="FAQS__subtitle">Am I safe leaving my company in your hands?</p>
 
-                        <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                            <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                        </div>
                         
+                        <p class="FAQS__desc">Donec rutrum, mauris at blandit convallis, orci nulla volutpat sapien, id pulvinar leo ligula eget nunc. In quis magna magna. Nullam mattis eget.</p>
+                    </div>
+
+
+                    <div class="FAQS__card">
+                        <div class="FAQS__card-cont">
+                            <p class="FAQS__subtitle">Am I safe leaving my company in your hands?</p>
+
+                            <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                        </div>
+
+                        <p class="FAQS__desc">Donec rutrum, mauris at blandit convallis, orci nulla volutpat sapien, id pulvinar leo ligula eget nunc. In quis magna magna. Nullam mattis eget.</p>
                     </div>
 
                     <div class="FAQS__card">
-                        <p class="FAQS__subtitle">How many years of experience do you have?</p>
+                        <div class="FAQS__card-cont">
+                            <p class="FAQS__subtitle">Am I safe leaving my company in your hands?</p>
 
-                        <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                            <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                        </div>
+
+                        <p class="FAQS__desc">Donec rutrum, mauris at blandit convallis, orci nulla volutpat sapien, id pulvinar leo ligula eget nunc. In quis magna magna. Nullam mattis eget.</p>
                     </div>
 
                     <div class="FAQS__card">
-                        <p class="FAQS__subtitle">What companies have you worked with?</p>
+                        <div class="FAQS__card-cont">
+                            <p class="FAQS__subtitle">Am I safe leaving my company in your hands?</p>
 
-                        <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
-                    </div>
+                            <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                        </div>
 
-                    <div class="FAQS__card">
-                        <p class="FAQS__subtitle">Am I safe leaving my company in your hands?</p>
-
-                        <button class="FAQS__button"><img src="./img/arrow-down.svg" alt="BUTTON" class="FAQS__icon"></button>
+                        <p class="FAQS__desc">Donec rutrum, mauris at blandit convallis, orci nulla volutpat sapien, id pulvinar leo ligula eget nunc. In quis magna magna. Nullam mattis eget.</p>
                     </div>
 
                     <form class="FAQS__form-cont">
@@ -921,10 +954,10 @@
                         requesting designs right away!
                     </p>
 
-                    <button class="green-button green-button--new">
-                        <a href="#services" class="green-button__text">See Pricing</a>
+                    <a href="#services" class="green-button green-button--new">
+                        <p class="green-button__text">See Pricing</p>
                         <img src="./img/arrow-footer.svg" alt="ARROW RIGHT" class="green-button__icon">
-                    </button>
+                    </a>
 
                     
                 </div>
@@ -999,5 +1032,6 @@
 </body>
 
 <script src="./js/index.js" type="module"></script>
+<script src="./js/withoutmoduling.js"></script>
 
 </html>

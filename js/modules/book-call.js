@@ -5,7 +5,7 @@ export const bookCallFunc = () => {
     const email = document.querySelector(".book-call__item[name='email']")
     const number = document.querySelector(".book-call__item[name='number']")
     const bookTitle = document.querySelector(".book-call__title")
-    
+ 
 
     bookACall.addEventListener("click", () => {
         callMenu.classList.add("showBook")
@@ -13,9 +13,12 @@ export const bookCallFunc = () => {
 
     closeMenu.addEventListener("click", () => {
         callMenu.classList.remove("showBook")
+        email.value = ""
+        number.value = ""
+        bookTitle.innerText = "Book your appointment in one click."
     }) 
-
     
 }
+
 
 

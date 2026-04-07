@@ -37,12 +37,56 @@
     }
 }
 
+@keyframes stars1 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.35);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes stars2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.65);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes stars3 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.85);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .hero-block__text-cont *{
     animation-name: hero-slide;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     transition: .3s ease-in-out;
 }
+
+
 
 .scrollTop{
     display: none;
@@ -101,11 +145,42 @@
 .news__single-card,
 .pricing__button,
 .pricing__card,
-.book-call__button{
+.book-call__button,
+.hero-block__text-cont,
+.hero-block__svg-star,
+.hero-block__svg-star2,
+.hero-block__svg-star3,
+.login-menu__button,
+.login-menu__signUp,
+.login-menu__close,
+.book-call__close{
     transition: .3s ease-in-out;
 }  
 
-.hero-block__text-cont, .banner__inner-cont,.green-button--new{
+
+.hero-block__svg-star{
+    animation-name: stars1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.hero-block__svg-star2{
+    animation-name: stars2;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.hero-block__svg-star3{
+    animation-name: stars3;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+
+.customer__big-card,.banner__inner-cont,.green-button--new{
     transition: transform 0.1s linear;
 }
 
@@ -185,7 +260,11 @@
     transform: scale(0.95);
 }
 
-.footer__facebook:hover, .footer__icon:hover{
+.footer__facebook:hover, 
+.footer__icon:hover, 
+.login-menu__signUp:hover, 
+.login-menu__close:hover,
+.book-call__close:hover{
     transform: scale(1.1);
 }
 
@@ -199,9 +278,10 @@
     
 }
 
-.book-call__button:hover{
+.book-call__button:hover, .login-menu__button:hover{
     border: 1px solid #B9FD50;
     color:#B9FD50;
     background-color: #1a1a1a;
     
 }
+
