@@ -799,6 +799,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     padding: 30px;
     gap: 44px;
@@ -1173,7 +1174,7 @@ body{
 .FAQS{
     width: 100vw;
     background-color: white;
-    padding: 100px 0 600px 0;
+    padding: 100px 0 500px 0;
     overflow: hidden;
 
     display: flex;
@@ -1215,7 +1216,7 @@ body{
     padding: 27px 32px;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 15px;
     flex-direction: column;
     
 
@@ -1224,8 +1225,9 @@ body{
 }
 
 .FAQS__card-cont{
+    padding: 0px 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -1238,13 +1240,24 @@ body{
     color: #fff;
 }
 
+.FAQS__desc{
+    display: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 188%;
+    color: #fff;
+}
+
 .FAQS__icon{
+    
     width: 18px;
     height: 18px;
     background-color: transparent;
+    transition: transform 0.3s ease;
 }
 
 .FAQS__button{
+    
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -1253,6 +1266,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     cursor: pointer;
 }
@@ -1314,6 +1328,14 @@ body{
     color: #111204;
 
     cursor: pointer;
+}
+
+.activeFAQS{
+    transform: rotateZ(180deg);
+}
+
+.showFAQS{
+    display: flex;
 }
 
 /* BANNER */

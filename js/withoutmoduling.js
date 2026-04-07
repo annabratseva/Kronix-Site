@@ -57,7 +57,26 @@ const SignUp = () => {
 
 }
 
+// const FAQSsection = document.querySelector(".FAQS")
+// const FAQSanswer = document.querySelector(".FAQS__desc")
+// const FAQSbutton = document.querySelector(".FAQS__icon")
 
+// const openFAQS = () => {
+//     FAQSanswer.classList.toggle("showFAQS")
+//     FAQSbutton.classList.toggle("active")
+//     FAQSsection.style.padding = '80px 0 400px 0'
+// }
+
+const openFAQS = (btn) => {
+    const FAQSsection = btn.closest(".FAQS")
+    const card = btn.closest(".FAQS__card")
+
+    const FAQSanswer = card.querySelector(".FAQS__desc")
+    const FAQSbutton = card.querySelector(".FAQS__icon")
+
+    FAQSanswer.classList.toggle("showFAQS")
+    FAQSbutton.classList.toggle("activeFAQS")
+}
 
 
 

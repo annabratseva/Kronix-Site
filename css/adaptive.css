@@ -475,6 +475,8 @@
         font-size: 3rem;
         width: 300px;
     }
+
+   
     
     .hero-block__subtitle{
         width: 300px;
@@ -524,9 +526,11 @@
         width: 450px;
     }
 
-    .FAQS__card{
-        height: 70px;
+    .FAQS__card-cont{
+        width: 430px;
     }
+
+   
 
     .FAQS__button{
         width: 45px;
@@ -588,9 +592,6 @@
 
     }
 
-    .FAQS{
-        height: 1238px;
-    }
 
     .text-block__small-text{
         padding-right: 65vw;
@@ -726,6 +727,10 @@
         font-size: 1.2rem;
     }
 
+    .FAQS__card-cont{
+        width: 380px;
+    }
+
     
     .how-we-work__card{
         width: 310px;
@@ -777,12 +782,9 @@
         width: 400px;
     }
 
-    .FAQS__card{
-        height: 60px;
-    }
 
     .FAQS__button{
-        width: 45px;
+        width: 37px;
         height: 30px;
     }
 
@@ -932,14 +934,20 @@
         width: 320px;
     }
 
-    .FAQS__card{
-        height: 55px;
-        border-radius: 20px;
-    }
+     
 
     .FAQS__button{
         width: 42px;
         height: 32px;
+    }
+
+    .FAQS__card-cont{
+        width: 320px;
+    }
+
+    .FAQS__button {
+        width: 32px;
+        height: 30px;
     }
 
     .FAQS__icon{
@@ -954,7 +962,7 @@
     }
 
     .FAQS__subtitle{
-        width: 280px;
+        width: 210px;
         font-size: 1rem;
     }
 
