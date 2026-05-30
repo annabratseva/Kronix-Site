@@ -10,3 +10,6 @@ A fully responsive web application with integrated local storage and a user-frie
 - Responsive Design
 - Animations
 - Adaptive Site
+
+## Demo
+Link: https://annabratseva.github.io/Kronix-Site/
